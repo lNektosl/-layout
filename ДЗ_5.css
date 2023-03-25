@@ -1,0 +1,402 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Cambria, serif;
+    font-size: 14px;
+    color: #555;
+    line-height: 24px;
+    position: relative;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.column-2 {
+    width: 50%;
+}
+
+.column-3 {
+    width: 33.33%;
+}
+
+.column-4 {
+    width: 25%;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.line-header {
+    font-family: Montserrat, serif;
+    text-align: center;
+    margin: 0;
+}
+
+.line-header::after {
+    content: '';
+    display: block;
+    width: 50px;
+    margin: 25px auto;
+    border-bottom: 2px solid;
+}
+
+.ILMenu {
+    text-align: center;
+    margin-left: -50px;
+}
+
+.ILMenu li {
+    font-family: Roboto Slab, serif;
+    font-size: 16px;
+    padding: 15px;
+    display: inline;
+    list-style-type: none;
+}
+
+.ILMenu li:hover {
+    color: #cc5747;
+}
+
+[class^=im] {
+    margin: 15px;
+    height: 320px;
+    width: 360px;
+}
+
+.im1 {
+    background: url(Images/Hairdryer.png) no-repeat;
+}
+
+.im2 {
+    background: url(Images/Camera.png) no-repeat;
+}
+
+.im3 {
+    background: url(Images/laptop.png) no-repeat;
+}
+
+.im4 {
+    background: url(Images/Pigeon.png) no-repeat;
+}
+
+.im5 {
+    background: url(Images/Bycicle.png) no-repeat;
+}
+
+.im6 {
+    background: url(Images/WTabletop.png) no-repeat;
+}
+
+.im7 {
+    background: url(Images/Smartphone.png) no-repeat;
+}
+
+.im8 {
+    background: url(Images/Notebook.png) no-repeat;
+}
+
+.im9 {
+    background: url(Images/E&E.png) no-repeat;
+}
+
+[class^=im]:hover {
+    border: none;
+    background-blend-mode: multiply;
+    background-color: #bc5f59;
+    transition: all, 0.8s;
+
+}
+
+.row,
+.row2,
+.row3 {
+    display: inline-flex;
+}
+
+.Ilink,
+.brand {
+    font-family: Montserrat, serif;
+    display: none;
+    color: white;
+
+}
+
+.Ilink {
+    font-size: 18px;
+    padding-top: 100px;
+}
+
+.brand {
+    font-size: 12px;
+}
+
+[class^=im]:hover .Ilink {
+    display: block;
+}
+
+[class^=im]:hover .brand {
+    display: block;
+}
+
+[class^=im]:hover .button {
+    display: block;
+}
+
+.button {
+    height: 38px;
+    width: 100px;
+    background-color: white;
+    color: red;
+    font-family: Roboto Slab, serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 7px;
+    margin: auto;
+    margin-top: 25px;
+    display: none;
+}
+
+.GiT {
+    height: 370px;
+    margin: 30px 0px 30px;
+    background: url(Images/Get_in_touch_bg.png);
+    background-size: 100%;
+}
+
+.GiTadd {
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+.GitButton {
+    margin: auto;
+    color: white;
+    margin-top: 50px;
+    padding-top: 10px;
+    height: 46px;
+    width: 176px;
+    font-size: 18px;
+    border: 2px solid white;
+}
+.GitButton:hover,
+.GitButton:focus {
+    background-color: #fff;
+    color: #6c1d14;
+}
+.fontRobo {
+    font-family: Roboto Slab, serif;
+}
+
+.floatl {
+float: left;
+margin: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.data {
+    margin: 10px;
+    margin-right: 15px;
+    color: #999898;
+    padding: 10px;
+    font-family: Montserrat, serif;
+    font-size: 20px;
+    height: 72px;
+    width: 72px;
+    border: 2px solid black;
+}
+
+.ideas {
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.mainArticle {
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: "Roboto Slab", serif;
+    color: rgb(85, 85, 85);
+    line-height: 1.714;
+    text-align: left;
+}
+
+.readmore{
+    font-size: 13px;
+
+padding-top:10px; 
+        text-transform: uppercase;
+}
+.readmore:hover{
+    color: rgb(192, 48, 28);
+}
+.Article:hover .ideas{
+        color: rgb(192, 48, 28);
+}
+.Article:hover .red{
+        color: rgb(192, 48, 28);
+
+}
+[class^=logos]{
+/*    background-color: #6D6D6D;*/
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-left: 50px;
+    width: 150px;
+    height: 100px; 
+    display: inline-flex;
+}
+.logos1{
+    margin-left: 150px;
+    background: url(Images/Logos/Deorham.png) no-repeat;
+}
+.logos2{
+    background: url(Images/Logos/Ratings.png) no-repeat;
+}
+.logos3{
+    background: url(Images/Logos/Malik.png) no-repeat;
+    margin-left: 30px;
+}
+.logos4{
+    background: url(Images/Logos/Bcause.png) no-repeat;
+}
+.logos5{
+    background: url(Images/Logos/Womgiby.png) no-repeat;
+    margin-left: 25px;
+}
+.logos2,.logos5{
+    margin-bottom: 10px;
+    vertical-align: bottom;
+}
+.logos1,.logos3,.logos4{
+    vertical-align: middle;
+}
+.partners{
+    margin-bottom: 90px;
+    background-color: #f8f8f8
+}
+.partntext{
+    width: 800px;
+    margin:auto;
+    line-height: 1.667;
+}
+.circle{
+    margin: 3px;
+    display: inline-block;
+    background-color: #dddddd;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
+.circle:hover{
+    background-color: #c0301c;
+}
+.contacts{
+list-style-type: none;
+  margin-top: 80px;
+}
+.contacts li{
+    padding-bottom: 20px;
+}
+
+.contactsN{
+    margin-left: 15px;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.information{
+    margin-right: 80px;
+    margin-left: 30px; 
+    line-height: 1.667;
+    font-size: 14px;
+    font-family: Roboto Slab, serif;
+}
+.textblocks{
+    margin-right: -30px;
+    margin-top: 110px;
+}
+.message{
+    padding-top: 15px;
+    font-family: Roboto Slab, serif;
+    font-size: 12px;
+    padding-left: 20px;
+    height: 100px;
+    width: 730px;
+}
+.message:focus{
+    outline:none;
+    border: 1px solid #c0301c
+}
+.maininput{
+    padding-left: 20px;
+    height: 50px;
+    width: 350px;
+}
+.maininput:focus{
+    outline:none;
+    border: 1px solid #c0301c;
+}
+.name,.email,.subject,.Cname{
+    font-family: Roboto Slab, serif;
+    font-size: 12px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.email,.Cname{
+    margin-left: 20px;
+}
+.inputbutton{
+    margin-top: 30px;
+    height: 40px;
+    width: 170px;
+    background-color: #c0301c;   
+}
+.dopinfo{
+    margin-top: -30px;
+    text-align: center;
+    margin-left: 70px;
+    font-size: 12px;
+}
+.footer{
+    color: white;
+    background-color: #c0301c;
+    background-size: 100%;
+    height: 308px;
+    margin-top: 100px;
+}
+.cage{
+    margin-left: 475px;
+
+}
+.twitter{
+    margin-top: 100px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background:url(Images/Logos/twitter.png) no-repeat;
+}
+.twitter:hover{
+    background:url(Images/Logos/hover-twitter.png) no-repeat;   
+}
